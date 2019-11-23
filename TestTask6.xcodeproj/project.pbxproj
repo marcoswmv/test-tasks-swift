@@ -64,6 +64,7 @@
 		F7577D56236DEC7C00B9DD34 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 		F7577D58236DF31500B9DD34 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		F7577D5A236DF4EF00B9DD34 /* DestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
+		F75E60FE2389EA9E001251F8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F7620A382372F97400704E28 /* UIColorRandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorRandom.swift; sourceTree = "<group>"; };
 		F774BAE02384019B00B797C4 /* DispatchQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DispatchQueue.swift; path = ../../../TestTask16/TestTask6/Extensions/DispatchQueue.swift; sourceTree = "<group>"; };
 		F774BAE2238408F100B797C4 /* SensorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +114,7 @@
 		F7007BF5236CD4B70010FCF2 = {
 			isa = PBXGroup;
 			children = (
+				F75E60FE2389EA9E001251F8 /* README.md */,
 				F7007C00236CD4B70010FCF2 /* TestTask6 */,
 				F7007BFF236CD4B70010FCF2 /* Products */,
 				396F6FC538F97789D036B73C /* Pods */,
