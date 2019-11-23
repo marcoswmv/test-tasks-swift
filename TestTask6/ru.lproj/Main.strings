@@ -1,0 +1,75 @@
+
+/* Class = "UILabel"; text = "НИЖНИЙ КОЛОНТИТУЛ"; ObjectID = "0Ro-G5-d8S"; */
+"0Ro-G5-d8S.text" = "НИЖНИЙ КОЛОНТИТУЛ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "0U5-Zn-XNm"; */
+"0U5-Zn-XNm.text" = "Метка";
+
+/* Class = "UITextField"; placeholder = "Введите здесь текст"; ObjectID = "2Lq-av-1Ej"; */
+"2Lq-av-1Ej.placeholder" = "Введите здесь текст";
+
+/* Class = "UIButton"; normalTitle = "К Кодированному Виду"; ObjectID = "594-ca-LnJ"; */
+"594-ca-LnJ.normalTitle" = "К Кодированному Виду";
+
+/* Class = "UIButton"; normalTitle = "Переход с Segue"; ObjectID = "6ML-h7-S3o"; */
+"6ML-h7-S3o.normalTitle" = "Переход с Segue";
+
+/* Class = "UITabBarItem"; title = "Навигация"; ObjectID = "6kh-ej-W1d"; */
+"6kh-ej-W1d.title" = "Навигация";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "D9a-EA-2ii"; */
+"D9a-EA-2ii.text" = "Метка";
+
+/* Class = "UIButton"; normalTitle = "Показать"; ObjectID = "E14-Ue-0p6"; */
+"E14-Ue-0p6.normalTitle" = "Показать";
+
+/* Class = "UILabel"; text = "ЗОГОЛОВОК"; ObjectID = "JH4-gx-uN4"; */
+"JH4-gx-uN4.text" = "ЗОГОЛОВОК";
+
+/* Class = "UITabBarItem"; title = "Камера"; ObjectID = "KBf-MD-jMH"; */
+"KBf-MD-jMH.title" = "Камера";
+
+/* Class = "UITabBarItem"; title = "Датчики"; ObjectID = "LsL-nx-eNQ"; */
+"LsL-nx-eNQ.title" = "Датчики";
+
+/* Class = "UILabel"; text = "Метка"; ObjectID = "M7t-O6-v9Z"; */
+"M7t-O6-v9Z.text" = "Метка";
+
+/* Class = "UIButton"; normalTitle = "Снимать Фотографию"; ObjectID = "Mnl-me-hnA"; */
+"Mnl-me-hnA.normalTitle" = "Снимать Фотографию";
+
+/* Class = "UITabBarItem"; title = "Главный"; ObjectID = "PtF-VQ-uqg"; */
+"PtF-VQ-uqg.title" = "Главный";
+
+/* Class = "UILabel"; text = "Вывод"; ObjectID = "Q8u-wy-9QS"; */
+"Q8u-wy-9QS.text" = "Вывод";
+
+/* Class = "UITabBarItem"; title = "Таблица"; ObjectID = "R2H-nF-u35"; */
+"R2H-nF-u35.title" = "Таблица";
+
+/* Class = "UITabBarItem"; title = "Анимированный Вид"; ObjectID = "Tfi-um-Lln"; */
+"Tfi-um-Lln.title" = "Анимированный Вид";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "UeI-Tu-VvV"; */
+"UeI-Tu-VvV.text" = "Метка";
+
+/* Class = "UILabel"; text = "Core Motion - Акселерометер"; ObjectID = "aZb-D0-CFb"; */
+"aZb-D0-CFb.text" = "Core Motion - Акселерометер";
+
+/* Class = "UILabel"; text = "Core Location - GPS"; ObjectID = "gcJ-Xc-Lg9"; */
+"gcJ-Xc-Lg9.text" = "Core Location - GPS";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jmN-r8-Far"; */
+"jmN-r8-Far.text" = "Метка";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "qLp-Go-gVy"; */
+"qLp-Go-gVy.text" = "Метка";
+
+/* Class = "UIButton"; normalTitle = "Переход с кодом"; ObjectID = "sgW-vU-hAf"; */
+"sgW-vU-hAf.normalTitle" = "Переход с кодом";
+
+/* Class = "UIButton"; normalTitle = "Показать Карту"; ObjectID = "wKy-18-qAl"; */
+"wKy-18-qAl.normalTitle" = "Показать Карту";
+
+/* Class = "UILabel"; text = "Текущее Время"; ObjectID = "yYp-4F-lta"; */
+"yYp-4F-lta.text" = "Текущее Время";

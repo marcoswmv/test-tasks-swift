@@ -1,0 +1,60 @@
+
+/* Class = "UILabel"; text = "FOOTER"; ObjectID = "0Ro-G5-d8S"; */
+"0Ro-G5-d8S.text" = "RODAPÉ";
+
+/* Class = "UITextField"; placeholder = "Enter some text here"; ObjectID = "2Lq-av-1Ej"; */
+"2Lq-av-1Ej.placeholder" = "Introduza algum texto";
+
+/* Class = "UIButton"; normalTitle = "Transition To Coded View"; ObjectID = "594-ca-LnJ"; */
+"594-ca-LnJ.normalTitle" = "Tr. para Vista Codificada";
+
+/* Class = "UIButton"; normalTitle = "Segue Transition"; ObjectID = "6ML-h7-S3o"; */
+"6ML-h7-S3o.normalTitle" = "Segue de transição";
+
+/* Class = "UITabBarItem"; title = "Navigation"; ObjectID = "6kh-ej-W1d"; */
+"6kh-ej-W1d.title" = "Navegação";
+
+/* Class = "UIButton"; normalTitle = "Display"; ObjectID = "E14-Ue-0p6"; */
+"E14-Ue-0p6.normalTitle" = "Mostrar";
+
+/* Class = "UILabel"; text = "HEADER"; ObjectID = "JH4-gx-uN4"; */
+"JH4-gx-uN4.text" = "CABEÇALHO";
+
+/* Class = "UITabBarItem"; title = "Camera"; ObjectID = "KBf-MD-jMH"; */
+"KBf-MD-jMH.title" = "Câmera";
+
+/* Class = "UITabBarItem"; title = "Sensors"; ObjectID = "LsL-nx-eNQ"; */
+"LsL-nx-eNQ.title" = "Sensores";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "M7t-O6-v9Z"; */
+"M7t-O6-v9Z.text" = "Etiqueta";
+
+/* Class = "UIButton"; normalTitle = "Take Picture"; ObjectID = "Mnl-me-hnA"; */
+"Mnl-me-hnA.normalTitle" = "Tirar Fotografia";
+
+/* Class = "UITabBarItem"; title = "Main"; ObjectID = "PtF-VQ-uqg"; */
+"PtF-VQ-uqg.title" = "Principal";
+
+/* Class = "UILabel"; text = "Output"; ObjectID = "Q8u-wy-9QS"; */
+"Q8u-wy-9QS.text" = "Resultado";
+
+/* Class = "UITabBarItem"; title = "Table"; ObjectID = "R2H-nF-u35"; */
+"R2H-nF-u35.title" = "Tabela";
+
+/* Class = "UITabBarItem"; title = "Animated View"; ObjectID = "Tfi-um-Lln"; */
+"Tfi-um-Lln.title" = "Vista Animada";
+
+/* Class = "UILabel"; text = "Core Motion - Accelerometer"; ObjectID = "aZb-D0-CFb"; */
+"aZb-D0-CFb.text" = "Core Motion - Acelerômetro";
+
+/* Class = "UILabel"; text = "Core Location - GPS"; ObjectID = "gcJ-Xc-Lg9"; */
+"gcJ-Xc-Lg9.text" = "Core Location - GPS";
+
+/* Class = "UIButton"; normalTitle = "Code Transition"; ObjectID = "sgW-vU-hAf"; */
+"sgW-vU-hAf.normalTitle" = "Transição Codificada";
+
+/* Class = "UIButton"; normalTitle = "Show Map"; ObjectID = "wKy-18-qAl"; */
+"wKy-18-qAl.normalTitle" = "Mostrar Mapa";
+
+/* Class = "UILabel"; text = "Current Time"; ObjectID = "yYp-4F-lta"; */
+"yYp-4F-lta.text" = "Hora Atual";
