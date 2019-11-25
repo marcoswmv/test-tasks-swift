@@ -21,6 +21,7 @@
 		F7007C21236CD8550010FCF2 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7007C20236CD8550010FCF2 /* ArticleCell.swift */; };
 		F7007C23236CECBC0010FCF2 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7007C22236CECBC0010FCF2 /* CustomView.swift */; };
 		F7007C25236CFF1E0010FCF2 /* ArticlesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7007C24236CFF1E0010FCF2 /* ArticlesTableViewController.swift */; };
+		F70B6766238BF2FA00E9808A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F70B6765238BF2FA00E9808A /* .gitignore */; };
 		F72B870D237EFC700032DD36 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72B870C237EFC700032DD36 /* UIApplication.swift */; };
 		F72B8715237F436B0032DD36 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72B8714237F436B0032DD36 /* UIViewController.swift */; };
 		F7577D54236DC1F800B9DD34 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7577D53236DC1F800B9DD34 /* DataSource.swift */; };
@@ -38,6 +39,44 @@
 		F7FE32FA2385822900FAC96F /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FE32F92385822900FAC96F /* CameraViewController.swift */; };
 		F7FE32FC23858A0900FAC96F /* ImagePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FE32FB23858A0900FAC96F /* ImagePreviewViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F70B675B238BEBD300E9808A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F70B6753238BEBD300E9808A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D797E9A5C5782CE845840781FA1CC81;
+			remoteInfo = Alamofire;
+		};
+		F70B675D238BEBD300E9808A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F70B6753238BEBD300E9808A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C3F44C782D64D7EB20B61CE3844EBFAD;
+			remoteInfo = Kingfisher;
+		};
+		F70B675F238BEBD300E9808A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F70B6753238BEBD300E9808A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6C59B339E434E5D7B7354CCF5F0CA45E;
+			remoteInfo = LBTAComponents;
+		};
+		F70B6761238BEBD300E9808A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F70B6753238BEBD300E9808A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4317C4769C483F953A84C306A92031FC;
+			remoteInfo = "Pods-TestTask6";
+		};
+		F70B6763238BEBD300E9808A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F70B6753238BEBD300E9808A /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B0B214D775196BA7CA8E17E53048A493;
+			remoteInfo = SDWebImage;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3F1C7F4691B28A815A960B9F /* Pods-TestTask6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTask6.release.xcconfig"; path = "Target Support Files/Pods-TestTask6/Pods-TestTask6.release.xcconfig"; sourceTree = "<group>"; };
@@ -58,6 +97,8 @@
 		F7007C20236CD8550010FCF2 /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
 		F7007C22236CECBC0010FCF2 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		F7007C24236CFF1E0010FCF2 /* ArticlesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesTableViewController.swift; sourceTree = "<group>"; };
+		F70B6753238BEBD300E9808A /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		F70B6765238BF2FA00E9808A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		F72B870C237EFC700032DD36 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		F72B8714237F436B0032DD36 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		F7577D53236DC1F800B9DD34 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
@@ -66,7 +107,7 @@
 		F7577D5A236DF4EF00B9DD34 /* DestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
 		F75E60FE2389EA9E001251F8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F7620A382372F97400704E28 /* UIColorRandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorRandom.swift; sourceTree = "<group>"; };
-		F774BAE02384019B00B797C4 /* DispatchQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DispatchQueue.swift; path = ../../../TestTask16/TestTask6/Extensions/DispatchQueue.swift; sourceTree = "<group>"; };
+		F774BAE02384019B00B797C4 /* DispatchQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueue.swift; sourceTree = "<group>"; };
 		F774BAE2238408F100B797C4 /* SensorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsViewController.swift; sourceTree = "<group>"; };
 		F774BAE423840BE600B797C4 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		F786A0C8237E87DD00915305 /* ArticleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleManager.swift; sourceTree = "<group>"; };
@@ -97,6 +138,7 @@
 		1B2FEAD54972373B63508E9A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F70B6753238BEBD300E9808A /* Pods.xcodeproj */,
 				B09E060E43E22AEE88961796 /* Pods_TestTask6.framework */,
 			);
 			name = Frameworks;
@@ -114,6 +156,7 @@
 		F7007BF5236CD4B70010FCF2 = {
 			isa = PBXGroup;
 			children = (
+				F70B6765238BF2FA00E9808A /* .gitignore */,
 				F75E60FE2389EA9E001251F8 /* README.md */,
 				F7007C00236CD4B70010FCF2 /* TestTask6 */,
 				F7007BFF236CD4B70010FCF2 /* Products */,
@@ -195,6 +238,18 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		F70B6754238BEBD300E9808A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F70B675C238BEBD300E9808A /* Alamofire.framework */,
+				F70B675E238BEBD300E9808A /* Kingfisher.framework */,
+				F70B6760238BEBD300E9808A /* LBTAComponents.framework */,
+				F70B6762238BEBD300E9808A /* Pods_TestTask6.framework */,
+				F70B6764238BEBD300E9808A /* SDWebImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		F7577D55236DEC5D00B9DD34 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -266,6 +321,12 @@
 			mainGroup = F7007BF5236CD4B70010FCF2;
 			productRefGroup = F7007BFF236CD4B70010FCF2 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F70B6754238BEBD300E9808A /* Products */;
+					ProjectRef = F70B6753238BEBD300E9808A /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F7007BFD236CD4B70010FCF2 /* TestTask6 */,
@@ -273,11 +334,50 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		F70B675C238BEBD300E9808A /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = F70B675B238BEBD300E9808A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F70B675E238BEBD300E9808A /* Kingfisher.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Kingfisher.framework;
+			remoteRef = F70B675D238BEBD300E9808A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F70B6760238BEBD300E9808A /* LBTAComponents.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = LBTAComponents.framework;
+			remoteRef = F70B675F238BEBD300E9808A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F70B6762238BEBD300E9808A /* Pods_TestTask6.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_TestTask6.framework;
+			remoteRef = F70B6761238BEBD300E9808A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F70B6764238BEBD300E9808A /* SDWebImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SDWebImage.framework;
+			remoteRef = F70B6763238BEBD300E9808A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		F7007BFC236CD4B70010FCF2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F70B6766238BF2FA00E9808A /* .gitignore in Resources */,
 				F7007C0E236CD4B80010FCF2 /* LaunchScreen.storyboard in Resources */,
 				F7FAD14B2387E906008E5546 /* Localizable.strings in Resources */,
 				F7007C0B236CD4B80010FCF2 /* Assets.xcassets in Resources */,

@@ -66,6 +66,7 @@ class CameraViewController: UIViewController {
     func takePicture() {
         let settings = AVCapturePhotoSettings()
         settings.isAutoStillImageStabilizationEnabled = true
+        
         captureDeviceOutput?.capturePhoto(with: settings, delegate: self)
     }
     
@@ -89,5 +90,9 @@ extension CameraViewController: AVCapturePhotoCaptureDelegate {
                 }
             }
         }
+    }
+//    to turn off the shutter sound when clicking to take the photo
+    func photoOutput(_ output: AVCapturePhotoOutput, willCapturePhotoFor resolvedSettings: AVCaptureResolvedPhotoSettings) {
+        AudioServicesDisposeSystemSoundID(1108)
     }
 }
