@@ -9,7 +9,6 @@
 import Foundation
 import UIKit
 
-@available(iOS 11.0, *)
 class SecondTabBarViewController: UIViewController {
     
     @IBOutlet weak var customView: CustomView!

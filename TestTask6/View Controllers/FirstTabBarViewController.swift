@@ -8,7 +8,6 @@
 
 import UIKit
 
-@available(iOS 11.0, *)
 class FirstTabBarViewController: UIViewController {
     
     @IBOutlet weak var outputLabel: UILabel!

@@ -14,7 +14,6 @@ class ArticlesTableViewController: UIViewController, UITableViewDelegate {
     
     let refreshControl = UIRefreshControl()
     let customDataSource = DataSource()
-    let articleManager = ArticleManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,6 +30,7 @@ class ArticlesTableViewController: UIViewController, UITableViewDelegate {
     }
     
     @objc func refreshData() {
+        let articleManager = ArticleManager()
         articleManager.getArticle { (arrayOfArticles, error) in
             if let errorToCatch = error {
                 UIViewController.Alert.showNetworkingErrorAlert(on: UIApplication.getTopViewController()!, message: errorToCatch.localizedDescription)
