@@ -69,7 +69,6 @@ class CameraViewController: UIViewController {
             photoSettings = AVCapturePhotoSettings()
         }
         
-        photoSettings.isAutoStillImageStabilizationEnabled = true
         photoDeviceOutput.capturePhoto(with: photoSettings, delegate: self)
     }
     
