@@ -10,8 +10,6 @@ import UIKit
 
 extension UIViewController {
     struct Alert {
-        
-        
         private static func showBasicAlert(on viewController: UIViewController, with title:  String, message: String) {
             let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
             
@@ -25,15 +23,5 @@ extension UIViewController {
                            with: NSLocalizedString("networking.404", comment: "Networking Error Title"),
                            message: message)
         }
-    }
-    
-    func hideKeyboardWhenTappedAround() {
-        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
-        tap.cancelsTouchesInView = false
-        view.addGestureRecognizer(tap)
-    }
-
-    @objc func dismissKeyboard() {
-        view.endEditing(true)
     }
 }
