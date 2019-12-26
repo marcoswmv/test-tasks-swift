@@ -42,17 +42,18 @@ class FirstTabBarViewController: UIViewController {
     
     func generateTimer(inTarget viewController: FirstTabBarViewController) {
         var timer = Timer()
-        timer = Timer.scheduledTimer(timeInterval: 1, target: viewController as Any, selector: #selector(viewController.displayTime), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 1, target: viewController as Any,
+                                     selector: #selector(viewController.displayTime), userInfo: nil, repeats: true)
         _ = timer
     }
 
+    @objc func displayTime() {
+        currentTimeLabel.text = DateFormatter.localizedString(from: Date(), dateStyle: .none, timeStyle: .long)
+    }
+    
     @IBAction func displayButtonOnTouchUpInside(_ sender: Any) {
         defaultValues.set(inputTextField.text!, forKey: Keys.savedString)
         outputLabel.text = inputTextField.text
-    }
-    
-    @objc func displayTime() {
-        currentTimeLabel.text = DateFormatter.localizedString(from: Date(), dateStyle: .none, timeStyle: .long)
     }
     
     func checkForSavedData() {

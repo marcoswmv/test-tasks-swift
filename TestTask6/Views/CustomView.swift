@@ -48,28 +48,28 @@ class CustomView: UIView {
         customLabel.layer.borderWidth = 1.0
         customLabel.textAlignment = .center
         
-        customLabel.translatesAutoresizingMaskIntoConstraints = false
-        customLabel.centerYAnchor.constraint(equalTo: self.centerYAnchor).isActive = true
-        customLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 20.0).isActive = true
-        customLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -20.0).isActive = true
+//        customLabel.translatesAutoresizingMaskIntoConstraints = false
+//        customLabel.centerYAnchor.constraint(equalTo: self.centerYAnchor).isActive = true
+//        customLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 20.0).isActive = true
+//        customLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -20.0).isActive = true
         
         anotherCustomLabel.isUserInteractionEnabled = true
         anotherCustomLabel.layer.borderColor = UIColor.black.cgColor
         anotherCustomLabel.layer.borderWidth = 1.0
         anotherCustomLabel.textAlignment = .center
         
-        anotherCustomLabel.translatesAutoresizingMaskIntoConstraints = false
-        anotherCustomLabel.anchorCenterYToSuperview()
-        anotherCustomLabel.anchor(nil,
-                                  left: self.safeAreaLayoutGuide.leftAnchor,
-                                  bottom: nil,
-                                  right: self.safeAreaLayoutGuide.rightAnchor,
-                                  topConstant: 0.0,
-                                  leftConstant: 20.0,
-                                  bottomConstant: 0,
-                                  rightConstant: 20.0,
-                                  widthConstant: 0.0,
-                                  heightConstant: 0.0)
+//        anotherCustomLabel.translatesAutoresizingMaskIntoConstraints = false
+//        anotherCustomLabel.anchorCenterYToSuperview()
+//        anotherCustomLabel.anchor(nil,
+//                                  left: self.safeAreaLayoutGuide.leftAnchor,
+//                                  bottom: nil,
+//                                  right: self.safeAreaLayoutGuide.rightAnchor,
+//                                  topConstant: 0.0,
+//                                  leftConstant: 20.0,
+//                                  bottomConstant: 0,
+//                                  rightConstant: 20.0,
+//                                  widthConstant: 0.0,
+//                                  heightConstant: 0.0)
     }
     
     func setData(dataForControl: CustomControlData, animated: Bool? = true) {

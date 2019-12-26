@@ -22,17 +22,17 @@
 		F7007C23236CECBC0010FCF2 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7007C22236CECBC0010FCF2 /* CustomView.swift */; };
 		F7007C25236CFF1E0010FCF2 /* ArticlesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7007C24236CFF1E0010FCF2 /* ArticlesTableViewController.swift */; };
 		F70B6766238BF2FA00E9808A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F70B6765238BF2FA00E9808A /* .gitignore */; };
-		F72B870D237EFC700032DD36 /* UIApplicationGetTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72B870C237EFC700032DD36 /* UIApplicationGetTopViewController.swift */; };
-		F72B8715237F436B0032DD36 /* UIViewControllerAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72B8714237F436B0032DD36 /* UIViewControllerAlert.swift */; };
+		F72B870D237EFC700032DD36 /* UIApplication+GetTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72B870C237EFC700032DD36 /* UIApplication+GetTopViewController.swift */; };
+		F72B8715237F436B0032DD36 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72B8714237F436B0032DD36 /* UIViewController+Alert.swift */; };
 		F7577D54236DC1F800B9DD34 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7577D53236DC1F800B9DD34 /* DataSource.swift */; };
 		F7577D57236DEC7C00B9DD34 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7577D56236DEC7C00B9DD34 /* CustomViewController.swift */; };
 		F7577D59236DF31500B9DD34 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7577D58236DF31500B9DD34 /* NavigationViewController.swift */; };
 		F7577D5B236DF4EF00B9DD34 /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7577D5A236DF4EF00B9DD34 /* DestinationViewController.swift */; };
-		F7620A392372F97400704E28 /* UIColorRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7620A382372F97400704E28 /* UIColorRandom.swift */; };
-		F76323AF2392E7140008B122 /* UIViewControllerKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76323AE2392E7140008B122 /* UIViewControllerKeyboard.swift */; };
-		F774BAE12384019B00B797C4 /* DispatchQueueOnce.swift in Sources */ = {isa = PBXBuildFile; fileRef = F774BAE02384019B00B797C4 /* DispatchQueueOnce.swift */; };
+		F7620A392372F97400704E28 /* UIColor+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7620A382372F97400704E28 /* UIColor+Random.swift */; };
+		F76323AF2392E7140008B122 /* UIViewController+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76323AE2392E7140008B122 /* UIViewController+Keyboard.swift */; };
+		F774BAE12384019B00B797C4 /* DispatchQueue+Once.swift in Sources */ = {isa = PBXBuildFile; fileRef = F774BAE02384019B00B797C4 /* DispatchQueue+Once.swift */; };
 		F774BAE3238408F100B797C4 /* SensorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F774BAE2238408F100B797C4 /* SensorsViewController.swift */; };
-		F774BAE523840BE600B797C4 /* DoubleRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = F774BAE423840BE600B797C4 /* DoubleRounded.swift */; };
+		F774BAE523840BE600B797C4 /* Double+Rounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = F774BAE423840BE600B797C4 /* Double+Rounded.swift */; };
 		F786A0C9237E87DD00915305 /* ArticleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F786A0C8237E87DD00915305 /* ArticleManager.swift */; };
 		F79877AB237609060047CC5B /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79877AA237609060047CC5B /* NetworkingManager.swift */; };
 		F79877AF237627820047CC5B /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79877AE237627820047CC5B /* Article.swift */; };
@@ -100,18 +100,18 @@
 		F7007C24236CFF1E0010FCF2 /* ArticlesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesTableViewController.swift; sourceTree = "<group>"; };
 		F70B6753238BEBD300E9808A /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		F70B6765238BF2FA00E9808A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		F72B870C237EFC700032DD36 /* UIApplicationGetTopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationGetTopViewController.swift; sourceTree = "<group>"; };
-		F72B8714237F436B0032DD36 /* UIViewControllerAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerAlert.swift; sourceTree = "<group>"; };
+		F72B870C237EFC700032DD36 /* UIApplication+GetTopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+GetTopViewController.swift"; sourceTree = "<group>"; };
+		F72B8714237F436B0032DD36 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		F7577D53236DC1F800B9DD34 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		F7577D56236DEC7C00B9DD34 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 		F7577D58236DF31500B9DD34 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		F7577D5A236DF4EF00B9DD34 /* DestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
 		F75E60FE2389EA9E001251F8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F7620A382372F97400704E28 /* UIColorRandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorRandom.swift; sourceTree = "<group>"; };
-		F76323AE2392E7140008B122 /* UIViewControllerKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerKeyboard.swift; sourceTree = "<group>"; };
-		F774BAE02384019B00B797C4 /* DispatchQueueOnce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueueOnce.swift; sourceTree = "<group>"; };
+		F7620A382372F97400704E28 /* UIColor+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Random.swift"; sourceTree = "<group>"; };
+		F76323AE2392E7140008B122 /* UIViewController+Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Keyboard.swift"; sourceTree = "<group>"; };
+		F774BAE02384019B00B797C4 /* DispatchQueue+Once.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Once.swift"; sourceTree = "<group>"; };
 		F774BAE2238408F100B797C4 /* SensorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsViewController.swift; sourceTree = "<group>"; };
-		F774BAE423840BE600B797C4 /* DoubleRounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleRounded.swift; sourceTree = "<group>"; };
+		F774BAE423840BE600B797C4 /* Double+Rounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Rounded.swift"; sourceTree = "<group>"; };
 		F786A0C8237E87DD00915305 /* ArticleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleManager.swift; sourceTree = "<group>"; };
 		F79877AA237609060047CC5B /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		F79877AE237627820047CC5B /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
@@ -263,12 +263,12 @@
 		F7620A3A2372F97A00704E28 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				F72B8714237F436B0032DD36 /* UIViewControllerAlert.swift */,
-				F76323AE2392E7140008B122 /* UIViewControllerKeyboard.swift */,
-				F774BAE02384019B00B797C4 /* DispatchQueueOnce.swift */,
-				F7620A382372F97400704E28 /* UIColorRandom.swift */,
-				F72B870C237EFC700032DD36 /* UIApplicationGetTopViewController.swift */,
-				F774BAE423840BE600B797C4 /* DoubleRounded.swift */,
+				F72B8714237F436B0032DD36 /* UIViewController+Alert.swift */,
+				F76323AE2392E7140008B122 /* UIViewController+Keyboard.swift */,
+				F774BAE02384019B00B797C4 /* DispatchQueue+Once.swift */,
+				F7620A382372F97400704E28 /* UIColor+Random.swift */,
+				F72B870C237EFC700032DD36 /* UIApplication+GetTopViewController.swift */,
+				F774BAE423840BE600B797C4 /* Double+Rounded.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -439,7 +439,7 @@
 			files = (
 				F774BAE3238408F100B797C4 /* SensorsViewController.swift in Sources */,
 				F7007C21236CD8550010FCF2 /* ArticleCell.swift in Sources */,
-				F774BAE12384019B00B797C4 /* DispatchQueueOnce.swift in Sources */,
+				F774BAE12384019B00B797C4 /* DispatchQueue+Once.swift in Sources */,
 				F7577D59236DF31500B9DD34 /* NavigationViewController.swift in Sources */,
 				F7007C1B236CD61B0010FCF2 /* CustomDataManager.swift in Sources */,
 				F7FE32FA2385822900FAC96F /* CameraViewController.swift in Sources */,
@@ -447,18 +447,18 @@
 				F7577D57236DEC7C00B9DD34 /* CustomViewController.swift in Sources */,
 				F786A0C9237E87DD00915305 /* ArticleManager.swift in Sources */,
 				F7007C23236CECBC0010FCF2 /* CustomView.swift in Sources */,
-				F72B870D237EFC700032DD36 /* UIApplicationGetTopViewController.swift in Sources */,
+				F72B870D237EFC700032DD36 /* UIApplication+GetTopViewController.swift in Sources */,
 				F7007C06236CD4B70010FCF2 /* TabBarViewController.swift in Sources */,
-				F774BAE523840BE600B797C4 /* DoubleRounded.swift in Sources */,
+				F774BAE523840BE600B797C4 /* Double+Rounded.swift in Sources */,
 				F7577D5B236DF4EF00B9DD34 /* DestinationViewController.swift in Sources */,
 				F79877AF237627820047CC5B /* Article.swift in Sources */,
 				F79877AB237609060047CC5B /* NetworkingManager.swift in Sources */,
 				F7007C02236CD4B70010FCF2 /* AppDelegate.swift in Sources */,
-				F76323AF2392E7140008B122 /* UIViewControllerKeyboard.swift in Sources */,
-				F72B8715237F436B0032DD36 /* UIViewControllerAlert.swift in Sources */,
+				F76323AF2392E7140008B122 /* UIViewController+Keyboard.swift in Sources */,
+				F72B8715237F436B0032DD36 /* UIViewController+Alert.swift in Sources */,
 				F7007C1F236CD83F0010FCF2 /* SecondTabBarViewController.swift in Sources */,
 				F7FE32FC23858A0900FAC96F /* ImagePreviewViewController.swift in Sources */,
-				F7620A392372F97400704E28 /* UIColorRandom.swift in Sources */,
+				F7620A392372F97400704E28 /* UIColor+Random.swift in Sources */,
 				F7007C04236CD4B70010FCF2 /* SceneDelegate.swift in Sources */,
 				F7007C25236CFF1E0010FCF2 /* ArticlesTableViewController.swift in Sources */,
 				F7577D54236DC1F800B9DD34 /* DataSource.swift in Sources */,
